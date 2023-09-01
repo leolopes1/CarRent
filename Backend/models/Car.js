@@ -17,11 +17,11 @@ const carSchema = new mongoose.Schema({
     },
     isDisponivel:{
         type:Boolean,
-        required:true,
+        required:false,
     },
     preco:{
         type: Number,
-        required:true
+        required:false
     }
 })
 
