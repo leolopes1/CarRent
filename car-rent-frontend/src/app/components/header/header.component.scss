@@ -1,0 +1,25 @@
+.toolbarContainer {
+    display: flex;
+    align-content: center;
+    width: 100%;
+    color: black;
+    height: 100%;
+    font-weight: 500;
+
+};
+
+.linkContainer {
+    display: flex;
+    width:20%;
+    /* background-color:blue; */
+    justify-content: space-evenly;
+};
+
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.title {
+    justify-content: start;
+    width: 20%;
+}

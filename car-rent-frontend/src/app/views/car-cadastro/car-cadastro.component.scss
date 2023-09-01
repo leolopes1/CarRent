@@ -1,0 +1,55 @@
+.bodyContainer{
+    width: 80%;
+
+}
+.body{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.title{
+    font-weight: 700;
+    font-size: 25px;
+    height: 20%;
+
+}
+.containerStart{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.containerInput{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.formVeiculo{
+    margin-top: 3%;
+    padding: 32px;
+    background-color: white;
+    
+    border-radius: 8px;
+    border: 1px solid #dee2e6
+    
+
+}
+.boxCentralizador{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 3%;
+}
+.containerButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+    
+    
+    margin-bottom: 3%;
+}

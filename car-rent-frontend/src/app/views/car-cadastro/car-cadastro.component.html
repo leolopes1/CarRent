@@ -1,0 +1,41 @@
+<app-header></app-header>
+
+<body class="body">
+    <div class="bodyContainer">
+        <div class="containerStart">
+            <a class="title">Cadastro de Veículo</a>
+            
+        </div>
+        <div class="formVeiculo">
+            <div class="boxCentralizador">
+                <div class="containerInput">
+                    <a>Modelo do veículo:</a>
+                    <input type="text" pInputText />
+                </div>
+                <div class="containerInput">
+                    <a>Marca do veículo:</a>
+                    <p-dropdown [options]="marcas" [(ngModel)]="selectedMarcaCode" optionLabel="name" optionValue="code"></p-dropdown>
+                </div>
+            </div>
+            <div class="boxCentralizador">
+                <div class="containerInput">
+                    <a>Placa do veículo</a>
+                    <input type="text" pInputText />
+                </div>
+                <div class="containerInput">
+                    <a>Ano do veículo</a>
+                    <input type="text" pInputText />
+                </div>
+            </div>
+            <div class="containerButton">
+                <button pButton pRipple type="button" label="Voltar" class="p-button-outlined" routerLink="/cars"></button>
+                <p-button label="Salvar"></p-button>
+            </div>
+            
+            
+            
+        </div>
+        
+        
+    </div>
+</body>
