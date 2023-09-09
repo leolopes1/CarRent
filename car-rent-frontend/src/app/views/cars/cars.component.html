@@ -6,9 +6,28 @@
             <a>
                 <button pButton pRipple type="button" icon="pi pi-plus" routerLink="/car" label="Adicionar"></button>
             </a>
-        
+            
             
         </div>
+        <p-table [value]="carList" [tableStyle]="{ 'min-width': '50rem' }">
+            <ng-template pTemplate="header">
+                <tr>
+                    <th>Modelo</th>
+                    <th>Marca</th>
+                    <th>Ano</th>
+                    <th>Disponivel?</th>
+                </tr>
+            </ng-template>
+            <ng-template pTemplate="body" let-carList>
+                <tr>
+                    <td>{{carList.modelo}}</td>
+                    <td>{{carList.marca}}</td>
+                    <td>{{carList.ano}}</td>
+                    <td>{{carList.isDisponivel}}</td>
+                    
+                </tr>
+            </ng-template>
+        </p-table>
         
         
     </div>

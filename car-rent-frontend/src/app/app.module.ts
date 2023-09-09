@@ -19,6 +19,8 @@ import {TabMenuModule} from 'primeng/tabmenu';
 import {MenuModule} from 'primeng/menu';
 import {InputTextModule} from 'primeng/inputtext';
 import {DropdownModule} from 'primeng/dropdown';
+import { TableModule } from 'primeng/table';
+
 
 
 
@@ -45,7 +47,8 @@ import {DropdownModule} from 'primeng/dropdown';
     InputTextModule,
     DropdownModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    TableModule,
     
     
   ],

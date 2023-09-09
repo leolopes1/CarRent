@@ -26,7 +26,7 @@ app.get('/cars', async (req, res) => {
 
 })
 
-mongoose.connect('mongodb+srv://leonardo:JcAYnzFlZ0NgcPwl@cluster0.u5t74kt.mongodb.net/?retryWrites=true&w=majority',)
+mongoose.connect('mongodb+srv://leonardo:hU5oPlZgGYCDxH8P@cluster0.jfumh9u.mongodb.net/?retryWrites=true&w=majority',)
 .then(() => console.log("Banco de Dados Conectado"))
 .catch(() => console.log("Falhou a conexão"))
 
