@@ -5,4 +5,5 @@ export interface Car{
     ano: number;
     isDisponivel: boolean;
     preco: number;
+    placa: string;
 }

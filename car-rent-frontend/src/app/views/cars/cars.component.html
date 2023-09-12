@@ -15,7 +15,10 @@
                     <th>Modelo</th>
                     <th>Marca</th>
                     <th>Ano</th>
+                    <th>Preço</th>
                     <th>Disponivel?</th>
+                    <th>Ver mais </th>
+                    <th></th>
                 </tr>
             </ng-template>
             <ng-template pTemplate="body" let-carList>
@@ -23,7 +26,11 @@
                     <td>{{carList.modelo}}</td>
                     <td>{{carList.marca}}</td>
                     <td>{{carList.ano}}</td>
+                    <td>{{carList.preco}}</td>
                     <td>{{carList.isDisponivel}}</td>
+                    <td><i class="pi pi-search" style="font-size: 1.5rem"></i></td>
+                    <td><i class="pi pi-trash" style="font-size: 1.5rem"></i></td>
+
                     
                 </tr>
             </ng-template>

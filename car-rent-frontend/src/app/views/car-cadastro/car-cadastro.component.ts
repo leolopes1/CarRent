@@ -44,6 +44,8 @@ export class CarCadastroComponent implements OnInit {
       marca: ['', [Validators.required]],
       placa: ['', [Validators.required]],
       ano: [null, [Validators.required]],
+      preco: [null, [Validators.required]],
+      isDisponivel: [false, [Validators.required]],
     })
   }
   

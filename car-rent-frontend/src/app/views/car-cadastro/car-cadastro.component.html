@@ -16,8 +16,9 @@
                     </div>
                     <div class="containerInput">
                         <a>Marca do veículo:</a>
-                        <p-dropdown [options]="marcas" formControlName="marca" optionLabel="name" optionValue="code"></p-dropdown>
+                        <p-dropdown [options]="marcas" formControlName="marca" optionLabel="name" optionValue="name"></p-dropdown>
                     </div>
+                    
                 </div>
                 <div class="boxCentralizador">
                     <div class="containerInput">
@@ -29,6 +30,17 @@
                         <input type="text" pInputText formControlName="ano"/>
                     </div>
                 </div>
+                <div class="boxUnico">
+                    <div class="containerInput">
+                        <a>Preço:</a>
+                        <input type="text" formControlName="preco" pInputText />
+                    </div>
+                    
+                    <!-- <p-checkbox formControlName="isDisponivel" value= true inputId="ok"></p-checkbox>
+                    <label for="ok">Disponível?</label> -->
+
+                </div>
+
                 <div class="containerButton">
                     <button pButton pRipple type="button" label="Voltar" class="p-button-outlined" routerLink="/cars"></button>
                     <p-button label="Salvar" type="submit"></p-button>
